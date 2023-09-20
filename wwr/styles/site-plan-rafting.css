@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+:root {
+    --primary-color: #0d1321;
+    --secodary-color: #ffeddf;
+    --accent1-color: #c5d86d;
+    --accent2-color: #86615c;
+
+    --heading-font: 'Merriweather', serif;
+    --paragraph-font: 'Merriweather', serif;
+
+    --nav-background-color: #0d1321;
+    --nav-link-color: #ffeddf;
+    --nav-hover-link-color: #c5d86d;
+    --nav-hover-background-color: #86615c;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 15px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2em;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visted {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
