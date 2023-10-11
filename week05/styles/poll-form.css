@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Rubik&display=swap');
+
+:root {
+    --primary-color: #28587B;
+    --secodary-color: #EEEEFF;
+    --accent1-color: #7F7CAF;
+    --accent2-color: #9FB4C7;
+
+    --heading-font: 'Merriweather', serif;
+    --paragraph-font: 'Rubik', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* margin-left: auto;
+    margin-right: auto; */
+    color: #333;
+    background: #fff;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+    text-align: center;
+    margin: 1rem;
+    font-size: 1.5em;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    display: grid;
+    background-color: #eee;
+}
+
+fieldset {
+    display: grid;
+    gap: 0.5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: var(--primary-color);
+    font-size: 1.3em;
+}
+
+label, input, button, select, textarea {
+    font-family: var(--paragraph-font);
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 0 auto;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
+    padding: 0.75rem;
+    font-size: 1.2rem;
+    color: #fff;
+    width: 150px;
+}
+
+button:hover {
+    background-color: var(--accent1-color);
+}
+
+footer {
+    margin: 1rem auto;
+    text-align: center;
+    width: 650px;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #ccc;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 2fr;
+    margin: 10px 0;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 10px 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 10px 0;
+}
