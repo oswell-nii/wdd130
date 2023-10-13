@@ -31,6 +31,7 @@ h2 {
     color: var(--accent2-color);
 }
 
+
 header {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -148,4 +149,64 @@ figcaption {
 .footer-content .social-icons {
     display: flex;
     justify-content: flex-end;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+form {
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    display: grid;
+}
+
+label {
+    margin: 10px 0;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: var(--accent2-color);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+
+.company-info {
+    padding: 30px;
+}
+
+.contact-us {
+    text-align: center;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
