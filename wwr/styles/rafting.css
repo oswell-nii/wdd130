@@ -77,6 +77,11 @@ h1 {
     text-align: center;
 }
 
+#contact {
+    top: 150px;
+    max-width: 1020px;
+}
+
 article {
     position: absolute;
     bottom: 200px;
@@ -197,13 +202,11 @@ button {
     padding: 30px;
 }
 
-.contact-us {
-    text-align: center;
-}
 
 .profile {
     display: flex;
     justify-content: center;
+    margin-top: 150px;
 }
 
 .newsletter {
