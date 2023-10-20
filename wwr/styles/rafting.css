@@ -82,6 +82,16 @@ h1 {
     max-width: 1020px;
 }
 
+#trips {
+    top: 150px;
+    max-width: 1020px;
+}
+
+.call-to-action {
+    margin-top: 100px;
+    padding: 50px;
+}
+
 article {
     position: absolute;
     bottom: 200px;
@@ -212,4 +222,45 @@ button {
 .newsletter {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+
+.call-to-action {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.trip-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.trip-description {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.trip-description img {
+    width: 300px;
+    margin-bottom: 10px;
+}
+.trip-table {
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+.trip-table th,
+.trip-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+/* CSS style for the callout button */
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
 }
