@@ -68,6 +68,10 @@ header {
     height: auto;
 }
 
+.banner img {
+    width: 100%;
+}
+
 h1 {
     position: absolute;
     top: 50px;
@@ -81,6 +85,13 @@ h1 {
     top: 150px;
     max-width: 1020px;
 }
+
+#welcome-home {
+    top: 400px;
+    max-width: 850px;
+    left: 80px;
+}
+
 
 #trips {
     top: 150px;
@@ -263,4 +274,27 @@ button {
     color: #fff;
     text-decoration: none;
     border-radius: 4px;
+}
+
+.home-page-newsletter {
+    text-align: center;
+    padding: 20px;
+    background-color: #eee;
+}
+
+.cta {
+    text-align: center;
+    background-color: #eee;
+    padding: 40px;
+}
+
+.grid-about-offerings {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item-about img, .grid-item-offering img{
+    width: 100%;
 }
